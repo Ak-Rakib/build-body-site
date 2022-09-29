@@ -7,19 +7,19 @@ const Cart = (props) => {
     
     const addToBreakTime1 = () => {
           setCount(34)
-       
+          localStorage.setItem('breakTime', 34);
     }
     const addToBreakTime2 = () => {
           setCount(50)
-       
+          localStorage.setItem('breakTime1', 50);
     }
     const addToBreakTime3 = () => {
           setCount(60)
-       
+          localStorage.setItem('breakTime2', 60);
     }
     const addToBreakTime4 = () => {
           setCount(45)
-       
+          localStorage.setItem('breakTime3', 45);
     }
       
     const {cart} = props;
