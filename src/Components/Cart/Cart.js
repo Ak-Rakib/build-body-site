@@ -3,7 +3,25 @@ import './Cart.css'
 
 const Cart = (props) => {
 
+    const [count, setCount] = useState(0);
     
+    const addToBreakTime1 = () => {
+          setCount(34)
+       
+    }
+    const addToBreakTime2 = () => {
+          setCount(50)
+       
+    }
+    const addToBreakTime3 = () => {
+          setCount(60)
+       
+    }
+    const addToBreakTime4 = () => {
+          setCount(45)
+       
+    }
+      
     const {cart} = props;
     console.log(cart);
     
@@ -24,13 +42,13 @@ const Cart = (props) => {
             </div>
                 <h2 style={{marginTop:'100px'}}>Add Break</h2>
             <div className='break-time'>
-                <button>34sec</button>
-                <button>50sec</button>
-                <button>60sec</button>
-                <button>45sec</button>
+                <button onClick={addToBreakTime1}>34sec</button>
+                <button onClick={addToBreakTime2}>50sec</button>
+                <button onClick={addToBreakTime3}>60sec</button>
+                <button onClick={addToBreakTime4}>45sec</button>
             </div> 
             <div className='workout-details'>
-            <span style={{marginRight:'30px', fontSize:'bold'}}> Break Time:</span> {total}Sec
+            <span style={{marginRight:'30px', fontSize:'bold'}}> Break Time:</span> {count}Sec
             </div>   
         </div>
     );
