@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+    Width:300px;
+    Height:508px;
+    margin-top: 118px;
+    margin-left: 104px;
+    margin-right: 82px;
+    border: 2px solid #1C2B35;
+    border-radius: 8px;
+}
+
+.cart-info{
+    margin-left: 10px;
+}
+
+.btn-cart{
+    background:  lightblue;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.btn-cart:hover{
+    background-color:  rgb(63, 207, 255);
+    cursor: pointer;
+}
