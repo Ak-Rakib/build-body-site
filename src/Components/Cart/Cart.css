@@ -2,3 +2,19 @@
     margin-left: 23px;
     margin-right: 23px;
 }
+
+.cart-info img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 45%;
+    margin-left: 30%;
+}
+
+.cart-info h3{
+    text-align: center;
+}
+
+.cart-info h5{
+    text-align: center;
+    margin-top: 0%;
+}
