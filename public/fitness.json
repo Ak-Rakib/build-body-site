@@ -3,41 +3,41 @@
         "id": "13234",
         "img": "https://images.squarespace-cdn.com/content/v1/577340ff579fb3374926f26f/1501020336777-SD8GQ7Y25HOWAQRI3SIT/image-asset.jpeg",
         "name": "Fitness",
-        "time": "30sec"
+        "time": 30
     },
     
     {
         "id": "54353",
         "img": "https://wallpaperaccess.com/full/1108014.jpg",
         "name": "Athletics",
-        "time": "60sec"
+        "time": 60
     },
 
     {
         "id": "8734",
         "img": "https://wallpapercave.com/wp/wp7353763.jpg",
         "name": "Fitness",
-        "time": "20sec"
+        "time": 20
     },
 
     {
         "id": "4535",
         "img": "https://t4.ftcdn.net/jpg/02/86/09/83/360_F_286098390_D2J4jLbOkCzikuSXxQBh26IxhR7t4i28.jpg",
         "name": "Fitness",
-        "time": "50sec"
+        "time": 50
     },
 
     {
         "id": "4444",
         "img": "https://c4.wallpaperflare.com/wallpaper/787/610/414/muscle-press-pose-athlete-workout-hd-wallpaper-preview.jpg",
         "name": "Fitness",
-        "time": "30sec"
+        "time": 30
     },
 
     {
         "id": "6565",
         "img": "https://c4.wallpaperflare.com/wallpaper/206/268/839/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg",
         "name": "Fitness",
-        "time": "40sec"
+        "time": 40
     }
 ]
