@@ -8,3 +8,18 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+.fitness-cart{
+    background-color: rgb(223, 241, 247) ;
+    width: 264px;
+    height: 944px;
+    position: sticky;
+    top: 0%;
+}
+
+@media screen and (max-width: 480px) {
+    .fitness-style{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

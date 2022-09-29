@@ -1,42 +1,42 @@
 [
     {   
         "id": "13234",
-        "img": "https://unsplash.com/photos/7kEpUPB8vNk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "img": "https://unsplash.com/photos/7kEpUPB8vNk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink.jpg",
         "name": "Fitness",
         "time": "30sec"
     },
     
     {
         "id": "54353",
-        "img": "https://unsplash.com/photos/9dzWZQWZMdE",
+        "img": "https://unsplash.com/photos/9dzWZQWZMdE.jpg",
         "name": "Athletics",
         "time": "60sec"
     },
 
     {
         "id": "8734",
-        "img": "https://unsplash.com/photos/zfPOelmDc-M",
+        "img": "https://unsplash.com/photos/zfPOelmDc-M.jpg",
         "name": "Fitness",
         "time": "20sec"
     },
 
     {
         "id": "4535",
-        "img": "https://unsplash.com/photos/buWcS7G1_28",
+        "img": "https://unsplash.com/photos/buWcS7G1_28.jpg",
         "name": "Fitness",
         "time": "50sec"
     },
 
     {
         "id": "4444",
-        "img": "https://unsplash.com/photos/0Wra5YYVQJE",
+        "img": "https://unsplash.com/photos/0Wra5YYVQJE.jpg",
         "name": "Fitness",
         "time": "30sec"
     },
 
     {
         "id": "6565",
-        "img": "https://unsplash.com/photos/4dlhin0ghOk",
+        "img": "https://unsplash.com/photos/4dlhin0ghOk.jpg",
         "name": "Fitness",
         "time": "40sec"
     }
