@@ -5,7 +5,15 @@
     margin-top: 118px;
     margin-left: 104px;
     margin-right: 82px;
-    border: 2px solid #1C2B35;
+    border: 2px solid #a5a6a6;
+    border-radius: 8px;
+}
+
+.container img{
+    Width:286px;
+    Height:286px;
+    margin-left: 6px;
+    margin-top: 6px;
     border-radius: 8px;
 }
 

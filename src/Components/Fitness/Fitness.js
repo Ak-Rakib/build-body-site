@@ -1,5 +1,5 @@
 import React from 'react';
-import './Fitness.css'
+import './Fitness.css';
 
 const Fitness = (props) => {
     const {img, name, time} = props.workOut;
@@ -11,7 +11,7 @@ const Fitness = (props) => {
                 <small>Time: {time}</small>
             </div>
             <button className='btn-cart'>
-                <p>Add</p>
+                <h4>Add</h4>
             </button>
         </div>
     );
