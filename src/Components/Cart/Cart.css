@@ -32,3 +32,13 @@
     box-sizing: 10px;
     margin-top: 5px;
 }
+
+.toasty{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 25%;
+}

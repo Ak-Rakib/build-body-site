@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -21,9 +23,11 @@ const Cart = (props) => {
           setCount(45)
           localStorage.setItem('breakTime3', 45);
     }
+
+    const notify = () => toast("Wow! Today Task Complete");
       
     const {cart} = props;
-    console.log(cart);
+    // console.log(cart);
     
     let total = 0;
     for(const workout of cart){
@@ -49,7 +53,11 @@ const Cart = (props) => {
             </div> 
             <div className='workout-details'>
             <span style={{marginRight:'30px', fontSize:'bold'}}> Break Time:</span> {count}Sec
-            </div>   
+            </div>
+            <div>
+            <button className='toasty' onClick={notify}>Activity Completed</button>
+            <ToastContainer />
+        </div>   
         </div>
     );
 };

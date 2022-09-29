@@ -19,10 +19,14 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .fitness-style{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .fitness-container{
+        display: grid;
+        grid-template-columns: 2fr 0fr;
     }
 }
 
