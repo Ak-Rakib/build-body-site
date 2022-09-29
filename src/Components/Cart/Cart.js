@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
+
+    
     const {cart} = props;
     console.log(cart);
     
@@ -16,9 +18,20 @@ const Cart = (props) => {
             <img src={img} alt="" />
             <h3>Ak-Rakib</h3>
             <h5>Junior Developer</h5>
-            <div>
-                Total Workout: {total}Sec
+            <h2 style={{marginTop:'100px'}}>Exercise Time</h2>
+            <div className='workout-details'>
+                <span style={{marginRight:'30px', fontSize:'bold'}}> Workout Time:</span> {total}Sec
             </div>
+                <h2 style={{marginTop:'100px'}}>Add Break</h2>
+            <div className='break-time'>
+                <button>34sec</button>
+                <button>50sec</button>
+                <button>60sec</button>
+                <button>45sec</button>
+            </div> 
+            <div className='workout-details'>
+            <span style={{marginRight:'30px', fontSize:'bold'}}> Break Time:</span> {total}Sec
+            </div>   
         </div>
     );
 };
