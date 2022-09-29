@@ -16,18 +16,6 @@ const Fitness = (props) => {
                 <h4>Add</h4>
             </button>
         </div>
-            <div className=''>
-                <h3>How does react work?</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>Difference between props and state</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>What kind of work actually useEffect do?</h3>
-                <p></p>
-            </div>
        </div>
     );
 };

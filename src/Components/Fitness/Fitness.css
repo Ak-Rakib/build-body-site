@@ -35,3 +35,7 @@
     background-color:  rgb(63, 207, 255);
     cursor: pointer;
 }
+
+.question-part{
+    border: 2px solid black;
+}
