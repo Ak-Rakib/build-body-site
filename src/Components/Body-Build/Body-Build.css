@@ -1,25 +1,29 @@
 .fitness-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .fitness-style{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    margin-bottom: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2%;
+    column-gap: 5%;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 .fitness-cart{
-    background-color: rgb(223, 241, 247) ;
-    width: 264px;
-    height: 944px;
+    background-color: #19A7CE ;
+    width: 100%;
+    height: 70%;
     position: sticky;
     top: 0%;
-    margin-right: 10px;
+    border-radius: 8px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 850px) {
     .fitness-style{
         display: grid;
         grid-template-columns: repeat(1, 1fr);

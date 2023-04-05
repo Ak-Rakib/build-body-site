@@ -1,28 +1,31 @@
 .container{
     position: relative;
-    Width:300px;
-    Height:508px;
-    margin-top: 118px;
-    margin-left: 104px;
-    margin-right: 82px;
-    border: 2px solid #a5a6a6;
-    border-radius: 8px;
+    Width:100%;
+    Height:100%;
+    border: 1px solid #a5a6a6;
+    background-color: #F6F1F1;
+    border-radius: 10px;
 }
 
 .container img{
-    Width:286px;
-    Height:286px;
-    margin-left: 6px;
-    margin-top: 6px;
+    Width:100%;
+    Height:50%;
     border-radius: 8px;
 }
 
-.cart-info{
-    margin-left: 10px;
+.container .name{
+    text-align: center;
+}
+
+.container .time-set {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
 }
 
 .btn-cart{
-    background:  lightblue;
+    background:  #19A7CE;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
     border: none;

@@ -1,33 +1,33 @@
-.cart-info{
-    margin-left: 23px;
-    margin-right: 23px;
-}
 
 .cart-info img{
-    width: 100px;
-    margin-top: 20px;
-    border-radius: 45%;
-    margin-left: 30%;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clip-path: circle();
 }
 
 .cart-info h3{
     text-align: center;
 }
 
-.cart-info h5{
+.cart-info h4{
     text-align: center;
     margin-top: 0%;
+    color: gray;
 }
 
 .workout-details{
-    background-color: rgb(178, 255, 231);
+    background-color: #F6F1F1;
     padding: 20px;
     box-sizing: 10px;
-    margin-top: 5px;
+    margin-top: 2%;
+
 }
 
 .break-time{
-    background-color: rgb(178, 255, 231);
+    background-color: #F6F1F1;
     padding: 10px;
     box-sizing: 10px;
     margin-top: 5px;
@@ -38,7 +38,8 @@
     border-radius: 5px;
     background-color: black;
     color: aliceblue;
-    text-align: center;
-    margin-top: 45px;
-    margin-left: 25%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

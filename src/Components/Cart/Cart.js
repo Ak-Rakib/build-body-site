@@ -39,12 +39,12 @@ const Cart = (props) => {
         <div className='cart-info'>
             <img src={img} alt="" />
             <h3>Ak-Rakib</h3>
-            <h5>Junior Developer</h5>
-            <h2 style={{marginTop:'100px'}}>Exercise Time</h2>
+            <h4>React Developer</h4>
+            <h3 style={{marginTop:'20%'}}>Exercise Time</h3>
             <div className='workout-details'>
-                <span style={{marginRight:'30px', fontSize:'bold'}}> Workout Time:</span> {total}Sec
+                <span style={{marginRight:'2%', fontSize:'bold'}}> Workout Time:</span> {total}Sec
             </div>
-                <h2 style={{marginTop:'100px'}}>Add Break</h2>
+                <h3 style={{marginTop:'20%'}}>Add Break</h3>
             <div className='break-time'>
                 <button onClick={addToBreakTime1}>34sec</button>
                 <button onClick={addToBreakTime2}>50sec</button>
@@ -52,7 +52,7 @@ const Cart = (props) => {
                 <button onClick={addToBreakTime4}>45sec</button>
             </div> 
             <div className='workout-details'>
-            <span style={{marginRight:'30px', fontSize:'bold'}}> Break Time:</span> {count}Sec
+            <span style={{marginRight:'2%', fontSize:'bold'}}> Break Time:</span> {count}Sec
             </div>
             <div>
             <button className='toasty' onClick={notify}>Activity Completed</button>
