@@ -18,14 +18,16 @@
     padding: 0.5rem 1.5rem;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: black;
     background-color: #19a7ce;
     font-weight: 700;
   }
   
   .btn-ques:hover {
     background-color: rgb(117, 118, 119);
+    color: white;
     cursor: pointer;
+    border: 1px solid seashell;
   }
   
   .btn-ques-container {
@@ -35,7 +37,6 @@
   
   a {
     text-decoration: none;
-    color: black;
     font-size: large;
   }
 

@@ -9,7 +9,7 @@ const Header = () => {
         <div className='header-container'>
             <div className='header-logo'>
                 <FontAwesomeIcon style={{ width: '50px' }} icon={faRunning}></FontAwesomeIcon>
-                <h1 style={{ color: 'GrayText' }}>BUILD-BODY</h1>
+                <h2 style={{ color: 'GrayText' }}>BUILD-BODY</h2>
             </div>
             <div className='btn-ques-container'>
                 <Link className='btn-ques' to="/question">Blog</Link>

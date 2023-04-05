@@ -46,10 +46,10 @@ const Cart = (props) => {
             </div>
                 <h3 style={{marginTop:'20%'}}>Add Break</h3>
             <div className='break-time'>
-                <button onClick={addToBreakTime1}>34sec</button>
-                <button onClick={addToBreakTime2}>50sec</button>
-                <button onClick={addToBreakTime3}>60sec</button>
-                <button onClick={addToBreakTime4}>45sec</button>
+                <button className='common-btn-style' onClick={addToBreakTime1}>34sec</button>
+                <button className='common-btn-style' onClick={addToBreakTime2}>50sec</button>
+                <button className='common-btn-style' onClick={addToBreakTime3}>60sec</button>
+                <button className='common-btn-style' onClick={addToBreakTime4}>45sec</button>
             </div> 
             <div className='workout-details'>
             <span style={{marginRight:'2%', fontSize:'bold'}}> Break Time:</span> {count}Sec
